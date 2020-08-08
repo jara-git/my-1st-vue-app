@@ -39,7 +39,7 @@
           <th scope="col">Id</th>
           <th scope="col">Name</th>
           <th scope="col">Email</th>
-          <th scope="col">City</th>
+          <th scope="col">Full Address</th>
         </tr>
       </thead>
       <tbody>
@@ -47,7 +47,7 @@
           <th scope="row">{{user.id}}</th>
           <td>{{user.name}}</td>
           <td>{{user.email}}</td>
-          <td>{{user.address.city}}</td>
+          <td>{{user.address.street}} street, {{user.address.suite}}, {{user.address.city}}, {{user.address.zipcode}}</td>
         </tr>
       </tbody>
     </table> 
